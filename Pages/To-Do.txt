@@ -5,7 +5,7 @@ To-Do Seiten:
     Anmeldemaske
     Encryption Seite 
     Logo einbauen
-    GitHub Konto vermerken?
+    GitHub Konto vermerken? 
 
 
 HTML Cheatsheet:
