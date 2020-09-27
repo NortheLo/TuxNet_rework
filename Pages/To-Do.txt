@@ -1,0 +1,11 @@
+To-Do Seiten:
+    Unterstützungsseite: Remoteunterstützung noch relevant?
+    Impressum -> Datenschutz
+    News -> Wie speichern, anzeigen
+    Anmeldemaske
+    Encryption Seite 
+    Logo einbauen
+
+
+HTML Cheatsheet:
+http://www.simplehtmlguide.com/cheatsheet.php
