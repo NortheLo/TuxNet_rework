@@ -1,6 +1,7 @@
 To-Do Seiten:
     Unterstützungsseite: Remoteunterstützung noch relevant?
     Impressum -> Datenschutz
+    Startseite Bildergalerie oder ähnliches?
     News -> Wie speichern, anzeigen
     Anmeldemaske
     Encryption Seite 
