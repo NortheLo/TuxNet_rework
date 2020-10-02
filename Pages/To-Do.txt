@@ -1,13 +1,24 @@
 To-Do Seiten:
-    Unterstützungsseite: Remoteunterstützung noch relevant?
-    Impressum -> Datenschutz
-    Startseite Bildergalerie oder ähnliches?
     News -> Wie speichern, anzeigen
+    
+    Startseite Idee:
+    Links kurzer Willkommenstext mit Mail button
+    Daneben rechts Bildergalerie
+    
     Anmeldemaske
     Encryption Seite 
-    Logo einbauen
     GitHub Konto vermerken? 
+    Cookie popup
 
 
 HTML Cheatsheet:
 http://www.simplehtmlguide.com/cheatsheet.php
+
+
+Login Code:
+                  </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Login">Login</a>
+                        </li>
+                    </ul> 

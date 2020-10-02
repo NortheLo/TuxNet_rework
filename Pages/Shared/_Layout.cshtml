@@ -6,12 +6,24 @@
     <title>@ViewData["Title"] - Tux-Net</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        .navbar{
+            background-image: linear-gradient(to right, #c60202, black);
+            overflow: auto;
+            }
+        .navbar-light .navbar-brand {
+          color: white;
+          font-style: italic;
+          font-weight: bold;
+            }
+
+    </style>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Tux-Net</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">tux-net</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,19 +32,19 @@
                     <ul class="navbar-nav flex-grow-1">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/About">About</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Support">Support</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Support">Support</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Impressum">Impressum</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Impressum">Impressum</a>
                        </li>
                        <li class="nav-item">
-                           <a class="nav-link text-dark" asp-area="" asp-page="/Login">Login</a>
+                           <a class="nav-link text-light" asp-area="" asp-page="/Login">Login</a>
                        </li>
                     </ul>
                 </div>
