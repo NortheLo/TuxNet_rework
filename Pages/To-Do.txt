@@ -4,6 +4,12 @@ To-Do Seiten:
     Startseite Idee:
     Links kurzer Willkommenstext mit Mail button
     Daneben rechts Bildergalerie
+
+    Aboutseite:
+    Steht mehr über Linux als über die Dienstleitsungen drin
+
+    Support:
+    Steht nicht ausdrücklich drin, dass man spendet
     
     Anmeldemaske
     Encryption Seite 
