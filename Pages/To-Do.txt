@@ -10,6 +10,8 @@ To-Do Seiten:
 
     Support:
     Steht nicht ausdrücklich drin, dass man spendet
+
+    Spickzettel mit Git einbetten: https://stackoverflow.com/questions/37206157/can-i-embed-source-files-from-github-on-my-web-page-other-than-gists
     
     Anmeldemaske
     Encryption Seite 
