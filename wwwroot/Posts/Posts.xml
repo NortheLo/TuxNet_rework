@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Posts>
+  <Post>
+    <Title>
+      Neue Seite
+    </Title>
+    <Content>
+      Seit heute ist die neue Webseite online! Schauen Sie sich gerne um!
+    </Content>
+    <Author>
+      Nomis
+    </Author>
+    <Date>
+      18.11.2020
+    </Date>
+  </Post>
+  
+  <Post>
+    <Title>
+      Erstes Update
+    </Title>
+    <Content>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit sollicitudin libero vel bibendum. Nullam laoreet magna in dui congue, sed pretium quam tincidunt. Suspendisse ultrices efficitur ante, quis vehicula massa consectetur in. Proin rhoncus ante tempus ornare vehicula. Donec aliquam porttitor justo, quis pharetra diam. Suspendisse placerat turpis leo, ac vulputate eros elementum sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed at ante dui.
+    </Content>
+    <Author>
+      Hans-Peter
+    </Author>
+    <Date>
+      21.11.2020
+    </Date>
+  </Post>
+
+  <Post>
+    <Title>
+      Beemovie
+    </Title>
+    <Content>
+      According to all known laws
+      of aviation,
+
+
+      there is no way a bee
+      should be able to fly.
+
+
+      Its wings are too small to get
+      its fat little body off the ground.
+
+
+      The bee, of course, flies anyway
+
+
+      because bees don't care
+      what humans think is impossible.
+
+
+      Yellow, black. Yellow, black.
+      Yellow, black. Yellow, black.
+
+
+      Ooh, black and yellow!
+      Let's shake it up a little.
+
+
+      Barry! Breakfast is ready!
+
+
+      Ooming!
+
+
+      Hang on a second.
+
+
+      Hello?
+
+
+      - Barry?
+      - Adam?
+
+
+      - Oan you believe this is happening?
+      - I can't. I'll pick you up.
+
+
+      Looking sharp.
+
+
+      Use the stairs. Your father
+      paid good money for those.
+
+
+      Sorry. I'm excited.
+
+
+      Here's the graduate.
+      We're very proud of you, son.
+
+
+      A perfect report card, all B's.
+    </Content>
+    <Author>
+      Bee
+    </Author>
+    <Date>
+      1.12.2020
+    </Date>
+  </Post>
+</Posts>

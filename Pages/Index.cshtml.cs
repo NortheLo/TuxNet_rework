@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using TuxNet_rework.Services;
 
 namespace TuxNet_rework.Pages
 {
@@ -12,25 +14,15 @@ namespace TuxNet_rework.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         public readonly List<NewsPost> Posts;
+        private readonly IWebHostEnvironment _env;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(ILogger<IndexModel> logger, IWebHostEnvironment env)
         {
             _logger = logger;
-            Posts = new List<NewsPost>();
-            Posts.Add(new NewsPost
-            {
-                Title = "Neue Seite",
-                Content = "Seit heute ist die neue Webseite online! Schauen Sie sich gerne um!",
-                Author = "Nomis",
-                Date = DateTime.Today
-            });
-            Posts.Add(new NewsPost
-            {
-                Title = "Erstes Update",
-                Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit sollicitudin libero vel bibendum. Nullam laoreet magna in dui congue, sed pretium quam tincidunt. Suspendisse ultrices efficitur ante, quis vehicula massa consectetur in. Proin rhoncus ante tempus ornare vehicula. Donec aliquam porttitor justo, quis pharetra diam. Suspendisse placerat turpis leo, ac vulputate eros elementum sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed at ante dui.",
-                Author = "Hans-Peter",
-                Date = new DateTime(2020, 11, 21)
-            });
+            _env = env;
+            var xmlService = new XmlService(_env);
+            Posts = xmlService.RetrievePosts();
+            Posts.Reverse();
         }
 
         public void OnGet()
