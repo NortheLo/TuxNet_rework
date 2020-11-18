@@ -13,21 +13,20 @@ namespace TuxNet_rework.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        public readonly List<NewsPost> Posts;
+        public List<NewsPost> Posts;
         private readonly IWebHostEnvironment _env;
 
         public IndexModel(ILogger<IndexModel> logger, IWebHostEnvironment env)
         {
             _logger = logger;
             _env = env;
-            var xmlService = new XmlService(_env);
-            Posts = xmlService.RetrievePosts();
-            Posts.Reverse();
         }
 
         public void OnGet()
         {
-
+            var xmlService = new XmlService(_env);
+            Posts = xmlService.RetrievePosts();
+            Posts.Reverse();
         }
     }
 }
