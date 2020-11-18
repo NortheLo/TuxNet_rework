@@ -14,7 +14,7 @@
         <h3>Herzlich Willkommen bei Tux-Net! Wir machen dies und das und was weiß ich was!</h3>
         <div class="text-center">
             <a href="mailto:info@tux-net.de">
-                <button type="button" class="btn btn-primary">Email</button>
+                <button type="button" class="btn btn-danger">Email</button>
             </a>
         </div>
     </div>
@@ -47,5 +47,20 @@
         </div>
     </div>
 </div>
+
+<h2 style="margin-top: 5%">Neuigkeiten</h2>
+@foreach (var item in Model.Posts)
+{
+    <div class="card border-dark" style="margin-top: 2%">
+            <div class="card-body">
+                <h4 class="card-title">@item.Title</h4>
+                <p class="card-text">@item.Content</p>
+            </div>
+            <div class="card-footer bg-danger">
+                <span class="col-md-4" style="color: antiquewhite"><span style="color: white">Autor:</span> @item.Author</span>
+                <span class="col-md-4" style="color: antiquewhite"><span style="color: white">Datum:</span> @item.Date.ToString("dd.MM.yyyy")</span>
+            </div>
+    </div>
+}
 
 <script src="http://gist-it.appspot.com/https://github.com/NortheLo/Spicker/Spicker.txt"></script>
