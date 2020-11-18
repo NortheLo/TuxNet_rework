@@ -1,2 +1,2 @@
 # TuxNet
-This is a project to setup a reworked website of tuxnet.de.
+This project is aimed to create a new website for tuxnet.de. 
