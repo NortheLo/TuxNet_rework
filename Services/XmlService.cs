@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -33,7 +34,7 @@ namespace TuxNet_rework.Services
                     Title = post["Title"].InnerText,
                     Content = post["Content"].InnerText,
                     Author = post["Author"].InnerText,
-                    Date = DateTime.Parse(post["Date"].InnerText)
+                    Date = DateTime.Parse(post["Date"].InnerText, new CultureInfo("de-DE"))
                 });
             }
 
